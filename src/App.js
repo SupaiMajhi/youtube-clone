@@ -6,12 +6,12 @@ import MainContent from "./pages/mainContent/MainContent";
 
 export default function App() {
     return (
-        <>
+        <div className="bg-white">
         <Navbar/>
-        <div className="hero-section flex flex-row p-3">
+        <div className="hero-section flex">
         <LeftSection/>
         <MainContent/>
         </div>
-        </>
+        </div>
     );
 }

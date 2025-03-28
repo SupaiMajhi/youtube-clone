@@ -1,11 +1,12 @@
 import React from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
 import MicIcon from '@mui/icons-material/Mic';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
 
+//icon imports
+import { ReactComponent as MenuIcon } from "../../assets/menu.svg";
 
 
 function Navbar() {
@@ -14,12 +15,14 @@ function Navbar() {
   {/**
    * NAVBAR
    */}
-  <div className="nav flex flex-row justify-between items-center px-5">
+  <div className="nav flex flex-row justify-between items-center px-8">
     {/**
      * NAVBAR LEFT
      */}
     <div className="nav-left flex flex-row items-center gap-4">
-    <MenuIcon className="cursor-pointer"/>
+      <div className="w-[40px] h-[40px] rounded-full cursor-pointer flex justify-center items-center hover:bg-whiteSmoke">
+        <MenuIcon className='!w-6 !h-6' />
+      </div>
     <img src="/images/logo.jpg" alt="logo" className="w-[100px]" />
     </div>
 
@@ -48,5 +51,6 @@ function Navbar() {
   </>
   )
 }
+
 
 export default Navbar;
