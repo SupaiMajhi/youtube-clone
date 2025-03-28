@@ -15,7 +15,7 @@ function Navbar() {
   {/**
    * NAVBAR
    */}
-  <div className="nav flex flex-row justify-between items-center px-8">
+  <div className="nav flex flex-row justify-between items-center px-7">
     {/**
      * NAVBAR LEFT
      */}

@@ -1,7 +1,10 @@
-import React from 'react'
+//components imports
+import VideoCard from "../../components/VideoCard.jsx";
 
 export default function MainContent() {
   return (
-    <div>MainContent</div>
+    <div className="basis-full grid grid-cols-4 h-full">
+      <VideoCard />
+    </div>
   )
 }

@@ -6,7 +6,7 @@ import { ReactComponent as ProfileIcon } from "../../assets/profile.svg";
 function LeftSection() {
   return (
     <>
-      <div className="left-section w-[100px] h-[600px] pl-1">
+      <div className="left-section basis-[7.5%] h-[600px] pl-1">
         <ul className="flex flex-col">
         <li className="w-[70px] h-[80px] flex justify-center items-center rounded-lg cursor-pointer hover:bg-whiteSmoke">
             <div className="flex flex-col justify-center items-center">

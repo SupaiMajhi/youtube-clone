@@ -9,8 +9,8 @@ export default function App() {
         <div className="bg-white">
         <Navbar/>
         <div className="hero-section flex">
-        <LeftSection/>
-        <MainContent/>
+            <LeftSection/>
+            <MainContent/>
         </div>
         </div>
     );
